@@ -1,0 +1,30 @@
+.box {
+    width: 300px;
+    height: 90px;
+    margin-top: 200px;
+    margin-left: 550px;
+    margin-right: 250px;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    background-color:rgb(149, 181, 163); 
+  }
+
+header{
+    font-size: large;
+}
+body{
+    padding-top: 2px;
+    text-align: center;
+    background-color: rgb(149, 181, 163);    
+}
+.container{
+    text-align: center;
+    
+    color: white;
+    padding: 10px 20px;
+    border-color: black;
+}
+

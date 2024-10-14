@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Validation.js"></script>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <i>Login here to download</i>
+        </header>
+        <form onsubmit="return validateForm()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password"><br><br>
+
+            <div class="container">
+                <a href="Fullstack.jpg" download="Fullstack.jpg">
+                    <button type="submit">Login</button>
+                </a>
+            </div>
+        </form>
+    </div>
+    <a href="Validation success.html">Go back to the login page</a>
+</body>
+</html>
